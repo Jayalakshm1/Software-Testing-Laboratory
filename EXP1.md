@@ -1,7 +1,7 @@
 # Ex.No: 1 Write programs in Python Language to demonstrate the working of followingconstructs with possible test cases: a) do…while b) while…do c) if …else d) switch e) for 
                                                                     
 ### REGISTER NUMBER : 212221040066
-
+### DATE : 16/08/2024
 ### AIM:  
 To write python programs for do…while, while, for, switch and if…else and test with possible test 
 Cases 
@@ -14,6 +14,7 @@ Cases
 5. Stop the program.
 ### Program:
 ### a) do.while
+
 ```
 def display(): 
     start=input("Enter a positive value for START: ") 
@@ -31,7 +32,9 @@ def display():
         print("Enter a valid positive number.")
 display() 
 ```
+
 ### Output:
+
 ```
 Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit 
 (AMD64)] on win32
@@ -86,7 +89,9 @@ Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit
  Enter a positive value for END: -5
  Enter a valid positive number.
 ```
+
 ### b) while
+
 ```
 start=input("Enter a positive value for START: ")
  end=input("Enter a positive value for END: ") 
@@ -99,7 +104,9 @@ if start.isnumeric() and end.isnumeric():
 else:
  print("Enter a valid positive number.") 
 ```
+
 ### Output:
+
 ```
 Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit 
 (AMD64)] on win32
@@ -152,7 +159,9 @@ Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit
  Enter a positive value for END: snjnjd
  Enter a valid positive number.
 ```
+
 ### c) if..else
+
 ```
 def compare():
     a=input("Enter a value for A: ")
@@ -170,7 +179,9 @@ def compare():
         print("Enter a valid number.")
  compare()
 ```
+
 ### Output:
+
 ```
 Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit 
 (AMD64)] on win32
@@ -223,7 +234,9 @@ Enter a value for A: 5
 Enter a value for B: 
 Enter a valid number.
 ```
+
 ### d) switch
+
 ```
 def switch():
     switcher={
@@ -238,7 +251,9 @@ def switch():
         print("Enter a valid number.") 
 switch()
 ```
+
 ### Output:
+
 ```
 Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit 
 (AMD64)] on win32
@@ -284,7 +299,9 @@ Enter a valid number.
  Enter a value for N: A
  Enter a valid number.
 ```
+
 ### e) for
+
 ```
 def iterate():
  string=input("Enter a string: ")
@@ -292,7 +309,9 @@ def iterate():
  print(ord(i),end=" ") 
 iterate() 
 ```
+
 ### Output:
+
 ```
 Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit 
 (AMD64)] on win32
